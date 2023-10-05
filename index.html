@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <title>font</title>
+    <link rel="icon" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#001C30">
+    
+    <form action="thank.html">
+        <fieldset  class="1"style= "width: 27%; color: #F8F6F4; background-color: #001C30; font-family: sans-serif;">
+            <legend style="font-family: cursive; text-align: center; font-size: 20px; color: #E57C23;">Personal Details</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name" required  placeholder="f_name" required name="name"><br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" required  placeholder="dob" required name="dob"><br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" required placeholder="above 18" required name="age"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="abc@gmail.com" required name="email"><br><br>
+    </fieldset>
+    <fieldset class="1" style= "width: 27%; color: #F8F6F4; background-color: #001C30; font-family: sans-serif;">
+        <legend style="font-family: cursive; text-align: center; font-size: 20px; color: #E57C23;">Educational Details</legend>
+        <label for="">Department</label> <br>
+
+        <input type="radio" id="cse" name="dept">
+        <label for="cse">CSE</label>
+        <input type="radio" id="eee" name="dept">
+        <label for="eee">EEE</label>
+        <input type="radio" id="civil" name="dept">
+        <label for="civil">CIVIL</label>
+        <input type="radio" id="mech" name="dept">
+        <label for="mech">MECH</label><br><br>
+
+        <label for="yog">YOG</label>
+        <input list="1" id="yog" required  name="yog">
+        <datalist id="1">
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </datalist>
+        <br><br>
+        <label for="">Skills</label><br>
+
+        <input type="checkbox" id="css" name="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="html" name="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="js" name="js">
+        <label for="js">JAVASCRIPT</label>
+        
+    </fieldset><br>
+    <fieldset class="1" style= "width: 27%; color: #F8F6F4; background-color: #001C30; font-family: sans-serif;">
+        <legend style="font-family: cursive; text-align: center; font-size: 20px; color: #E57C23;">contact details</details></legend>
+        <label for="uname">userName</label>
+        <input type="text" id="uname" pattern="[A-Za-z]{3,9}" required name="uname"> <br><br>
+
+        <label for="pas">password</label>
+        <input type="password" id="pas" required name="pas"> <br><br>
+
+        <label for="contact">contact no.</label>
+        <input type="numbers" id="contact"  required pattern="[6-9]{1}[0-9]{9}" name="contact"> <br><br>
+
+        <label for="fil">File</label><br>
+        <input type="file" id="fil"  name="fil"> <br><br>
+    </fieldset><br>
+        <input type="Submit" style="background-color: #E57C23;">
+
+    </form>
+</body>
+</html> 
